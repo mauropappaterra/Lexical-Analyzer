@@ -1,0 +1,101 @@
+
+found:		 int 			:token class identifier
+found:		 main 			:token class identifier
+found:		 ( 			:token class special
+found:		 ) 			:token class special
+found:		 while 			:token class identifier
+found:		 ( 			:token class special
+found:		 F 			:token class identifier
+found:		 0 			:token class integer
+found:		 SU 			:token class identifier
+found:		 0 			:token class integer
+found:		 E 			:token class identifier
+found:		 4 			:token class integer
+found:		 qGx 			:token class identifier
+found:		 X 			:token class identifier
+found:		 6 			:token class integer
+found:		 G 			:token class identifier
+found:		 ) 			:token class special
+found:		 while 			:token class identifier
+found:		 ( 			:token class special
+found:		 81 			:token class integer
+found:		 ) 			:token class special
+found:		 int 			:token class identifier
+found:		 r 			:token class identifier
+found:		 = 			:token class special
+found:		 Z 			:token class identifier
+found:		 03 			:token class integer
+found:		 p 			:token class identifier
+found:		 ; 			:token class special
+found:		 if 			:token class keyword
+found:		 ( 			:token class special
+found:		 Ls 			:token class identifier
+found:		 w 			:token class identifier
+found:		 0 			:token class integer
+found:		 ) 			:token class special
+found:		 int 			:token class identifier
+found:		 X 			:token class identifier
+found:		 0 			:token class integer
+found:		 c 			:token class identifier
+found:		 ; 			:token class special
+found:		 RhH 			:token class identifier
+found:		 = 			:token class special
+found:		 529 			:token class integer
+found:		 - 			:token class special
+found:		 e 			:token class identifier
+found:		 ; 			:token class special
+found:		 double 			:token class identifier
+found:		 yci 			:token class identifier
+found:		 ; 			:token class special
+found:		 M 			:token class identifier
+found:		 83 			:token class integer
+found:		 Sa 			:token class identifier
+found:		 3 			:token class integer
+found:		 w 			:token class identifier
+found:		 = 			:token class special
+found:		 3 			:token class integer
+found:		 ; 			:token class special
+found:		 ID 			:token class identifier
+found:		 6 			:token class integer
+found:		 qdF 			:token class identifier
+found:		 = 			:token class special
+found:		 pPH 			:token class identifier
+found:		 6 			:token class integer
+found:		 ; 			:token class special
+found:		 WLj 			:token class identifier
+found:		 3 			:token class integer
+found:		 Ut 			:token class identifier
+found:		 6 			:token class integer
+found:		 = 			:token class special
+found:		 T 			:token class identifier
+found:		 8 			:token class integer
+found:		 vm 			:token class identifier
+found:		 + 			:token class special
+found:		 1 			:token class integer
+found:		 1 			:token class integer
+found:		 JcP 			:token class identifier
+found:		 ; 			:token class special
+found:		 Ky 			:token class identifier
+found:		 1405 			:token class integer
+found:		 = 			:token class special
+found:		 7 			:token class integer
+found:		 ; 			:token class special
+found:		 return 			:token class identifier
+found:		 0 			:token class integer
+found:		 ; 			:token class special
+
+<<<<< TOTAL TOKENS FOUND >>>>> 
+
+Identifiers x36
+A total of 84 Characters
+
+Integers x22 and Real x0
+A total of30 Digits
+
+Keywords x1
+ if x1 then x0 else x0 begin x0 end x0
+
+Special x25
+ ( x4		 ) x4		 [ x0
+ ] x0		 + x1		 - x1
+ = x6		 , x0		 ; x9

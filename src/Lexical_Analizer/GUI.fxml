@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="730.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Lexical_Analizer.Controller">
+   <center>
+      <Pane prefHeight="702.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextArea fx:id="txt_field" editable="false" focusTraversable="false" layoutX="44.0" layoutY="201.0" prefHeight="455.0" prefWidth="514.0" text="Introduction to Programming Languages&#10;&#10;HOMEWORK #2&#10;&#10;Author: Mauro J. Pappaterra&#10;Net id: ew3525&#10;Area: Computer Science&#10;Course Code: CS 3120&#10;Quarter: Winter 2017&#10;&#10;California State University East Bay" />
+            <ImageView fx:id="img_monkey" fitHeight="314.0" fitWidth="367.0" layoutX="193.0" layoutY="342.0" opacity="0.32" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/monkey.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="bttn_analize" layoutX="438.0" layoutY="136.0" mnemonicParsing="false" onAction="#analizeCode" text="Analyze Code" />
+            <Label fx:id="lbl_title" layoutX="156.0" layoutY="20.0" text="Lexical Analysis Simulator">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbl_instructions1" layoutX="46.0" layoutY="79.0" text="Click on 'Analize Code' to create a symbol table based on lexical analysis" />
+            <Separator fx:id="separator" layoutX="198.0" layoutY="124.0" prefWidth="200.0" />
+            <Button fx:id="bttn_save" disable="true" layoutX="464.0" layoutY="671.0" mnemonicParsing="false" onAction="#save" text="Save to File" />
+            <Label fx:id="lbl_instructions2" layoutX="46.0" layoutY="98.0" text="Click on 'Save to File' to export your results as .txt file" />
+            <Label fx:id="lbl_preview" layoutX="45.0" layoutY="177.0" text="Results:" />
+            <Button fx:id="bttn_reset" disable="true" layoutX="391.0" layoutY="671.0" mnemonicParsing="false" onAction="#reset" text="Reset" />
+            <TextField fx:id="txt_directory" focusTraversable="false" layoutX="44.0" layoutY="136.0" prefHeight="31.0" prefWidth="367.0" promptText="Enter path to .txt file here" />
+            <Label fx:id="lbl_instructions3" layoutX="47.0" layoutY="59.0" text="Enter the path to a .txt file containing the code you want to analyze" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

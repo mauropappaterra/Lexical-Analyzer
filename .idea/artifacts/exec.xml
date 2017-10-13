@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="exec">
+    <output-path>$PROJECT_DIR$/out/artifacts/exec</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="Lexical_Analizer.Main" />
+        <option name="description" value="" />
+        <option name="height" value="725" />
+        <option name="htmlParamFile" value="" />
+        <option name="paramFile" value="" />
+        <option name="title" value="Lexical Analizer" />
+        <option name="vendor" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="JavaFXApp.jar">
+        <element id="module-output" name="Lexical_Analyzer" />
+      </element>
+    </root>
+  </artifact>
+</component>
