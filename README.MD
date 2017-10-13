@@ -1,4 +1,4 @@
-Random C Syntax Generator
+<b>Random C Syntax Generator</b>
 
 Part of a programming activity for "Course"
 
@@ -7,7 +7,7 @@ Part of a programming activity for "Course"
 
 Set of productions used to define a subset of the C programming language:
 
-<prog> ::= ìint main() { <stat_list> return 0; }î
+<prog> ::= ‚Äúint main() { <stat_list> return 0; }‚Äù
 
 <stat_list> ::= <stat>
 	     | <stat_list> <stat>
