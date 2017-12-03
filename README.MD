@@ -1,59 +1,14 @@
-Random C Syntax Generator
+#Lexical Analizer
+This program simulates a C compiler by scanning an external file containing C code and constructing a symbol table. The algorithm generates an entry for each token that is identified, and produces a summary report containing all tokens that appeared in the input. 
+####The grammar for producing tokens is as follows:
 
-Part of a programming activity for "Course"
-
-
-
-
-Set of productions used to define a subset of the C programming language:
-
-<prog> ::= “int main() { <stat_list> return 0; }”
-
-<stat_list> ::= <stat>
-	     | <stat_list> <stat>
-
-<stat> ::= <cmpd_stat>
-	| <if_stat>
-	| <iter_stat>
-	| <assgn_stat>
-	| <decl_stat>
-
-<cmpd_stat> ::= { <stat_list> }
-
-<if_stat> ::= if ( <exp> ) <stat>
-	   | if ( <exp> ) <cmpd_stat>
- 	   | if ( <exp> ) <stat> else <stat>
-	   | if ( <exp> ) <cmpd_stat> else <stat>
-	   | if ( <exp> ) <stat> else <cmpd_stat>
-	   | if ( <exp> ) <cmpd_stat> else <cmpd_stat>
-
-<iter_stat> ::= while ( <exp> ) <stat>
-	     | while ( <exp> ) <cmpd_stat>
-
-<assgn_stat> ::= <id> = <exp> ;
-
-<decl_stat> ::= <type> <id> ;
-  	     | <type> <assgn_stat>
-
-<exp> ::= <exp> <op> <exp>
-       | <id>
-       | <const><op> ::= + | - | * | /
-
-<type> ::= int
-	| double
-
-<id> ::= <char><chardigit_seq>
-
-<const> ::= <digit><digit_seq>
-
-<char_digit_seq> ::= [empty]
-      		  | <char><char_digit_seq>
-		  | <digit><char_digit_seq>
-
-<digit_seq> ::= [empty]
-     	     | <digit><digit_seq>
-
-<char> ::= [A-Z] | [a-z] | _
-
-<digit> ::= [0-9]
+<pre>
+    <b>keyword -></b> if | then | else | begin | end 
+ <b>identifier -></b> character | character identifier 
+    <b>integer -></b> digit | digit integer 
+       <b>real -></b> integer.integer 
+    <b>special -></b> ( | ) | [ | ] | + | - | = | , | ; 
+      <b>digit -></b> 0|1|2|3|4|5|6|7|8|9 
+  <b>character -></b> a|b|c ... |z|A|B|C ... |Z
+</pre>
 
