@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Lexical Analizer
 This program simulates a C compiler by scanning an external file containing C code and constructing a symbol table. The algorithm generates an entry for each token that is identified, and produces a summary report containing all tokens that appeared in the input. 
 ####The grammar for producing tokens is as follows:
